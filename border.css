@@ -1,0 +1,24 @@
+.container {
+  color: red;
+  position: static;
+  left: 20px;
+  top: 100px;
+  right: 50px;
+}
+@media (max-width: 1024px) {
+  .container {
+    color: red;
+    position: absolute;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    background-color: deepskyblue;
+    font-size: xx-large;
+    font-style: oblique;
+  }
+}
+.we {
+  display: block;
+  position: absolu;
+}
